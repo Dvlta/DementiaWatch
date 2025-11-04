@@ -1,11 +1,3 @@
-// Geo Fencing project with Adafruit IO
-// Author: Marco Schwartz
-//
-// Inspired by the code from Tony DiCola
-//
-// Released under a MIT license:
-// https://opensource.org/licenses/MIT
-
 // Libraries
 #include <Adafruit_SleepyDog.h>
 #include <SoftwareSerial.h>
@@ -37,8 +29,8 @@ float latitude, longitude, speed_kph, heading, altitude;
 // Adafruit IO configuration
 #define AIO_SERVER           "io.adafruit.com"  // Adafruit IO server name.
 #define AIO_SERVERPORT       1883  // Adafruit IO port.
-#define AIO_USERNAME         "DeltaStorm"  // Adafruit IO username (see http://accounts.adafruit.com/).
-#define AIO_KEY              "0124771a2921491090ff0b52e2ec8524"  // Adafruit IO key (see settings page at: https://io.adafruit.com/settings).
+#define AIO_USERNAME         "username"  // Adafruit IO username (see http://accounts.adafruit.com/).
+#define AIO_KEY              "key"  // Adafruit IO key (see settings page at: https://io.adafruit.com/settings).
 
 // Feeds
 #define LOCATION_FEED_NAME       "location"  // Name of the AIO feed to log regular location updates.
